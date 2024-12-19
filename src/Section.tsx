@@ -1,5 +1,5 @@
 import {Box} from "@mui/material";
-import {Lead, LeadCard} from "./lead";
+import {Lead, LeadCard} from "./Lead.tsx";
 import {useDrop} from "react-dnd";
 import {Dispatch, SetStateAction} from "react";
 

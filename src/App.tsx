@@ -1,7 +1,7 @@
-import {Section, SectionCard} from "./section";
+import {Section, SectionCard} from "./Section.tsx";
 import {useState} from "react";
 import {Box} from "@mui/material";
-import {Lead} from "./lead.tsx";
+import {Lead} from "./Lead.tsx";
 
 export const App = () => {
   const sections: Section[] = [
