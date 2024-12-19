@@ -1,7 +1,9 @@
 import {Section, SectionCard} from "./Section.tsx";
 import {useState} from "react";
 import {Box} from "@mui/material";
+import './App.css'
 import {Lead} from "./Lead.tsx";
+import {DragLayer} from "./DragLayer.tsx";
 
 export const App = () => {
   const sections: Section[] = [
@@ -55,6 +57,7 @@ export const App = () => {
   ]);
   return (
     <Box sx={{display: 'flex'}}>
+      <DragLayer/>
       {sections.map(section => <SectionCard leads={leads} setLeads={setLeads} section={section} key={section._id}/>)}
     </Box>
   );

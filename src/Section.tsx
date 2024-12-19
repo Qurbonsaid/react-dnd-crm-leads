@@ -30,7 +30,7 @@ export const SectionCard = ({section, leads, setLeads}: {
         margin: '10px',
         border: '1px solid red',
         minHeight: '80vh',
-        minWidth: '200px'
+        minWidth: '350px'
       }}
     >
       <p><b>{section.title}</b>
